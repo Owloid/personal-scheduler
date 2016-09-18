@@ -18,6 +18,28 @@
 </head>
 
 <body>
+  <h1>Toggl Report Viewer</h1>
+  <p>v0.1.0 (Sep 8, 2016)</p>
+  <p>Allows you to view a toggl report in week view.</p>
+
+  <h2>Usage</h2>
+  <p>
+    <ol>
+      <li>Create an account or log into <a href="https://toggl.com/app/" target="_blank">toggl.com</a></li>
+      <li>Go to the app page</li>
+      <li>Check your settings</li>
+      <ul>
+        <li>First day of the week: Monday</li>
+        <li>(Unknown if the following settings are required)</li>
+        <li>Date format: MM/DD/YYYY</li>
+        <li>Time format: 24-hour</li>
+      </ul>
+      <li>Mouse over the "Reports" tab and select "Detailed" from the dropdown list</li>
+      <li>Click the "Export" button and select "Download as CSV" from the dropdown list</li>
+      <li>Use the file submission interface below to submit the csv file</li>
+    </ol>
+  </p>
+
   <input type="file" accept=".csv" id="input">
   <button onclick="calendarShow()">Submit</button>
 
